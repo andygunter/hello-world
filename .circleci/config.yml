@@ -11,11 +11,11 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      
-      steps:
-        - run:
-            name: last step
-            command: |
+
+    steps:
+      - run:
+        name: last step
+        command: |
                 echo 'uname -a'
                 echo 'who -a'
                 echo 'env'
