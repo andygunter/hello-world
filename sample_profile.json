@@ -1,0 +1,88 @@
+{
+  "full_name": "Sample User",
+  "email": "sample@example.com",
+  "phone": "555-123-4567",
+  "location": "San Francisco, CA",
+  "linkedin_url": "https://linkedin.com/in/sampleuser",
+  "github_url": "https://github.com/sampleuser",
+  "portfolio_url": "https://sampleuser.dev",
+  "summary": "Experienced software engineer with expertise in Python, cloud technologies, and building scalable systems. Passionate about clean code, automation, and mentoring junior developers.",
+  "skills": [
+    {"name": "Python", "level": "EXPERT", "years_experience": 5, "keywords": ["programming_languages"]},
+    {"name": "JavaScript", "level": "ADVANCED", "years_experience": 4, "keywords": ["programming_languages"]},
+    {"name": "TypeScript", "level": "ADVANCED", "years_experience": 3, "keywords": ["programming_languages"]},
+    {"name": "React", "level": "ADVANCED", "years_experience": 3, "keywords": ["frameworks"]},
+    {"name": "Node.js", "level": "INTERMEDIATE", "years_experience": 2, "keywords": ["frameworks"]},
+    {"name": "AWS", "level": "ADVANCED", "years_experience": 3, "keywords": ["cloud_devops"]},
+    {"name": "Docker", "level": "INTERMEDIATE", "years_experience": 2, "keywords": ["cloud_devops"]},
+    {"name": "Kubernetes", "level": "INTERMEDIATE", "years_experience": 2, "keywords": ["cloud_devops"]},
+    {"name": "PostgreSQL", "level": "ADVANCED", "years_experience": 4, "keywords": ["databases"]},
+    {"name": "MongoDB", "level": "INTERMEDIATE", "years_experience": 2, "keywords": ["databases"]},
+    {"name": "Machine Learning", "level": "INTERMEDIATE", "years_experience": 2, "keywords": ["data_science"]}
+  ],
+  "experiences": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Tech Innovations Inc",
+      "start_date": "2021-03-01",
+      "is_current": true,
+      "description": "Leading backend development for a high-traffic API serving 10M+ requests daily",
+      "achievements": [
+        "Reduced API latency by 40% through caching optimization",
+        "Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes",
+        "Led migration from monolith to microservices architecture",
+        "Mentored team of 4 junior developers"
+      ],
+      "skills_used": ["Python", "AWS", "PostgreSQL", "Docker", "Kubernetes"],
+      "location": "San Francisco, CA"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "StartupXYZ",
+      "start_date": "2019-01-01",
+      "end_date": "2021-02-28",
+      "description": "Full-stack development for B2B SaaS platform",
+      "achievements": [
+        "Built real-time notification system serving 100k+ users",
+        "Implemented payment integration processing $2M+ monthly",
+        "Developed automated testing suite increasing coverage from 40% to 85%"
+      ],
+      "skills_used": ["JavaScript", "React", "Node.js", "MongoDB"],
+      "location": "San Francisco, CA"
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Code Academy Corp",
+      "start_date": "2017-06-01",
+      "end_date": "2018-12-31",
+      "description": "Developed internal tools and maintained legacy systems",
+      "achievements": [
+        "Automated manual reporting process saving 20 hours per week",
+        "Contributed to open-source projects used by the company"
+      ],
+      "skills_used": ["Python", "JavaScript", "PostgreSQL"],
+      "location": "Oakland, CA"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of California, Berkeley",
+      "degree": "Bachelor's",
+      "field_of_study": "Computer Science",
+      "graduation_date": "2017-05-15",
+      "gpa": 3.7,
+      "honors": ["Dean's List", "Cum Laude"],
+      "relevant_coursework": ["Data Structures", "Algorithms", "Machine Learning", "Distributed Systems"]
+    }
+  ],
+  "certifications": [
+    "AWS Solutions Architect - Associate",
+    "Kubernetes Application Developer (CKAD)"
+  ],
+  "languages": ["English (Native)", "Spanish (Conversational)"],
+  "desired_roles": ["Senior Software Engineer", "Staff Engineer", "Tech Lead", "Engineering Manager"],
+  "desired_locations": ["San Francisco", "New York", "Seattle", "Remote"],
+  "min_salary": 180000,
+  "max_commute_minutes": 45,
+  "remote_preference": "flexible"
+}

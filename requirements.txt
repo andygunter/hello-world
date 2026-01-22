@@ -1,0 +1,38 @@
+# Job Matcher - Requirements
+# Core dependencies
+
+# HTTP requests for API integrations
+requests>=2.28.0
+
+# HTML parsing for web scraping fallbacks
+beautifulsoup4>=4.11.0
+
+# PDF parsing (optional - for resume parsing)
+pdfplumber>=0.7.0
+# Alternative: PyPDF2>=3.0.0
+
+# Word document parsing (optional - for resume parsing)
+python-docx>=0.8.11
+
+# AI-powered document generation (optional)
+anthropic>=0.18.0
+# Alternative: openai>=1.0.0
+
+# Data processing
+python-dateutil>=2.8.0
+
+# Progress bars for CLI (optional)
+tqdm>=4.64.0
+
+# Rich terminal output (optional)
+rich>=13.0.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Type checking
+mypy>=1.0.0
+
+# Linting
+ruff>=0.1.0
